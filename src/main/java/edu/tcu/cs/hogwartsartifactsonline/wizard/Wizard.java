@@ -16,7 +16,7 @@ public class Wizard implements Serializable {
 
     @Id
     //Created my project with newest version, so has conflicts with this generated value
-   // @GeneratedValue(strategy = GenerationType.AUTO)
+   @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
     private String name;

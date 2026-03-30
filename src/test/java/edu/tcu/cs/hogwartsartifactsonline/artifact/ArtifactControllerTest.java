@@ -28,7 +28,7 @@ import tools.jackson.databind.ObjectMapper;
 
 
 @SpringBootTest
-@AutoConfigureMockMvc
+@AutoConfigureMockMvc(addFilters = false)
 class ArtifactControllerTest {
 
     @Autowired
