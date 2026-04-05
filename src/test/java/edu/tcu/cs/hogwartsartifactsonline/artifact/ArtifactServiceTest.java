@@ -23,9 +23,11 @@ import static org.assertj.core.api.Assertions.catchThrowable;
 import static org.mockito.Mockito.*;
 
 import edu.tcu.cs.hogwartsartifactsonline.artifact.utils.IdWorker;
+import org.springframework.test.context.ActiveProfiles;
 
 
 @ExtendWith(MockitoExtension.class)
+@ActiveProfiles(value = "dev")
 class ArtifactServiceTest {
 
     @Mock
