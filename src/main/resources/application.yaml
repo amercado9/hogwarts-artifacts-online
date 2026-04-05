@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: prod
+  web:
+    resources:
+      add-mappings: false
+api:
+  endpoint:
+    base-url: /api/v1
+
+server:
+  port: 80
