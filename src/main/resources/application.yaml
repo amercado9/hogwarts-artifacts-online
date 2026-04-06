@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: prod
+    active: dev #by default, active prof is "dev". during production replaced to prod
   web:
     resources:
       add-mappings: false
